@@ -1,0 +1,484 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v25-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v25-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  
+html{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    background: #FFFFFF; 
+    
+  }
+
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+
+
+.button, .btn, a, img :hover{
+    cursor:pointer;
+}
+
+html li, a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+--------------------Main------------------------
+
+
+header{
+    background-color: #4cd186;
+    height: 76px;
+    width: auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 228px;
+   
+    width: 1200px;
+    margin: 0 auto;
+}
+.conteiner1 .content1{
+    width: 690px;
+    background-color: #ea74d4;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner2 .content2{
+    width: 282px;
+    border-style: dashed;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #eff395;
+}
+
+.footer{
+    background-color: #365be2;
+    padding: 0;
+    margin: 0;
+}
+
+  /*Header*/
+  
+.header_elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    height: 76px;
+    width: 1200px;
+    background-color: #e16bcc;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    width: 51px;
+    height: 36px;
+    padding: 0;
+    margin: 20px 51px 20px 20px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0px;
+    margin: 20px 0;
+    gap: 30px;
+   
+    height: 16px;
+    
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.25px;
+}
+
+.navigation a{
+    height: 16px;
+    color: #333333;
+}
+
+.navigation li{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.25px;
+}
+
+.get_psychologist_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto;
+    padding: 0;
+
+    width: 230px;
+    height: 48px; 
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #03B2A5;
+    background: #E3F5F5;
+    border-radius: 4px; 
+}
+
+
+/* Breadcrumps */
+
+.breadcrumps{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0;
+    margin: 0 0 54px 0;
+    width: 690px;
+    height: 18px; 
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 0.7);
+
+    
+}
+
+.breadcrumps_arrow{
+    margin: 0 8px 0 4px;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.bredcrumps a{
+    height: 18px;
+    margin: 0;
+}
+/* Theme */
+
+.theme{
+    margin: 0 0 16px;
+    padding: 0;
+    width: 690px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #333333;   
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 240px;
+    height: 20px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #494949;
+}
+
+.water_relax{
+    width: 690px;
+}
+.tab{
+    list-style: none;
+    counter-reset: li;
+}
+
+.tab li:before {
+    counter-increment: li;
+    content: counters(li,".") ". ";
+}
+
+
+hr{
+    border-style: none;
+}
+
+
+/* Tags */
+
+/*.tags_conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 32px 0 24px 0;
+    gap: 8px;  
+}
+
+.tags_conteiner div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 8px;
+    gap: 4px;
+
+    border: 1px solid #C1C5CD;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.tags_conteiner .self{
+    border: 2px solid #16C8BB;
+}
+
+/* Cards */
+/* conteiner 2/
+.get_psychologist_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+
+    width: 230px;
+    height: 48px; 
+    padding: 14px 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #03B2A5;
+    background: #E3F5F5;
+    border-radius: 4px; 
+}
+/* Footer */
+/*.footer{
+    background: #2963A3;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.footer_elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
+
+
+
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    gap: 93px;
+    
+}
+.footer_menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 111px;
+    padding: 0;
+    margin: 40px 0;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.communication-form{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    
+    width: 486px;
+    margin: 40px 70px;
+    padding: 0px;
+    gap: 8px;   
+}
+
+.p-form{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: left;
+
+    margin: 0 0 8px 0;
+}
+
+.communication-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 10px;
+
+    width: 64px;
+    height: 48px;
+
+    background: #16C8BB;
+    border-radius: 4px;
+}
+
+.communication-input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 384px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    border-radius: 4px;
+}
+
+.input{
+    width: 320px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9D9D9D;
+
+}
+
+.form-description{
+    width: 486px;
+    margin: 8px auto;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 221px;
+    margin: 40px auto 40px 24px;
+}
+
+.company_name{
+    width: 221px;
+    height: 50px;
+}
+
+.messengers{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 221px;
+    height: 32px;
+}
+
+.line{
+    border-bottom: 1px solid #9D9D9D;
+    opacity: 0.3;
+}
+.juri{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1200px;
+    height: 20px;
+    gap: 48px;
+    margin: 0 120px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    opacity: 0.7;
+}
