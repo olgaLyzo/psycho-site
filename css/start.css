@@ -1,0 +1,189 @@
+
+html{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+  }
+
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content{
+    border: 1px solid #000;
+    padding: 16px;
+}  
+
+a, li{
+    text-decoration: none;
+}
+/* --------------------------------------------*/
+/* -------------------- HEADER ----------------*/
+/* --------------------------------------------*/
+
+.header{
+    background-color: #c1fec5;
+    border: 1px solid #000;
+}
+
+.header .content{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 48px;
+    
+}
+
+.navigation{
+    display: none;
+}
+
+.burger-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18px;
+    height:18px;
+    margin-left: auto; 
+}
+
+.burger-line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #03B2A5;  
+}
+
+
+
+.choose-btn{
+    display: none;
+}
+/* ------------------------------------------ */
+/* -------------------- MAIN ---------------- */
+/* ------------------------------------------ */
+.main{
+    flex: 1;
+    background-color: #f1f8d5;
+    border: 1px solid #000;
+}
+                                 
+/* ------------------------------------------ */
+/* -------------------- FOOTEWR --------------*/
+/* ------------------------------------------ */
+.footer{
+    background-color: #b1baf7;
+    border: 1px solid #000;
+}
+
+                     
+
+
+
+
+
+
+
+
+
+/*-----------------MEDIA-----------------------*/
+
+/*Iphone 11Pro Max*/
+@media screen and (min-width: 414px){
+    .content{
+        padding: 20px;
+    }
+}
+
+/*Tabletes mini*/
+@media screen and (min-width: 768px){
+    .logo{
+        width: 51px;
+    }
+
+    
+    
+}
+
+/*Tabletes*/
+@media screen and (min-width: 1024px){ 
+    .content{
+        padding: 32px;
+    }
+    .navigation{
+        display: flex;
+        margin-left: 51px;
+        gap: 30px;
+    
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+        letter-spacing: 0.25px;
+    }
+    
+    .navigation a{
+        color: #333333;
+    }
+    
+    .navigation li{
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 114%;
+
+        margin-right: 30px;
+    }
+    .navigation-materials::after{
+        content:"";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        transform: rotate(45deg);
+        margin-left: 8px;
+        margin-bottom: 2px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+    
+}
+/*Desctop*/
+@media screen and (min-width: 1200px){ 
+    .content{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .choose-btn{
+        display: block;
+        text-align: center;
+        
+        max-width: 230px;
+        height: 48px; 
+        padding: 14px 20px;
+        margin-left: auto;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #03B2A5;
+        background: #E3F5F5;
+        border-radius: 4px; 
+    }
+}
+    
+
+ 
+
+
